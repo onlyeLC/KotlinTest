@@ -1,8 +1,8 @@
 package com.amorcloud.kotlintest
 
-var age = 0
-val name = "onlye"
-val sex = "男"
+private var age = 0
+private val name = "onlye"
+private val sex = "男"
 fun main() {
     println("name:$name")
     println("age1:${grow1(18)}")
