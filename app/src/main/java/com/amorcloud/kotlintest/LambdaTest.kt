@@ -13,9 +13,10 @@ fun main() {
 
     lambdaTest2("B",1){i, j -> println("lambdaTest2:msg:$i,code:$j") }
 
-    //调用lambdaTest需要一个lambda表达式,
+    //调用lambdaTest需要一个lambda表达式,通过::将函数变为函数类型对象，即lambda表达式
     lambdaTest("B",1, ::lambdaTest3)
 
+    //函数lambdaTest4返回了一个函数
     val lambdaTest4 = lambdaTest4("B", 1)
     println(lambdaTest4("B",1))
 }

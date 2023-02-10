@@ -1,10 +1,13 @@
 package com.amorcloud.kotlintest
 
+import java.io.File
+
 class ArrayTest {
 
 }
 
 fun main() {
+    //最常用是各种数据类型的xxxArrayOf
     arrayTest1()
     arrayTest2()
     arrayTest3()
@@ -73,4 +76,11 @@ fun arrayTest6() {
     println(max)
 //    val binarySearch = array.binarySearch()
 //    println(binarySearch)
+}
+
+/**
+ *对象类型返回对象数组
+ */
+fun arrayTest7() {
+    val arrayOf = arrayOf<File>(File("2"), File("1"), File("3"),)
 }
