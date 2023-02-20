@@ -1,11 +1,11 @@
 package com.amorcloud.kotlintest
 
 var age = 0
-private val name = "丁如意"
+private val name = "测试"
 //只读变量
-val sex = "女"
+val sex = "男"
 //变量
-var status = "美丽"
+var status = "帅气"
 //常量
 const val test : String = ""
 fun main() {

@@ -1,5 +1,7 @@
 package com.amorcloud.kotlintest
-
+/**
+ * 内置函数
+ */
 fun main() {
     testApply("onlye")
     println()
