@@ -24,5 +24,3 @@ fun grow2(age: Int) = age+1
 
 //减缩版无返回函数
 fun grow3() = println(age+2)
-
-
