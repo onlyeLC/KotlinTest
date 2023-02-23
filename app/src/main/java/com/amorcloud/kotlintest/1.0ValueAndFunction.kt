@@ -13,7 +13,8 @@ fun main() {
 //    println("age2:${grow2(28)}")
 //    grow3()
 //    name = ""
-
+    testVararg("1","2", isTrue = true)
+    1 add 2
 }
 //原始有返回函数
 fun grow1(age:Int) :Int{
@@ -24,3 +25,19 @@ fun grow2(age: Int) = age+1
 
 //减缩版无返回函数
 fun grow3() = println(age+2)
+
+/**
+ * vararg 可变数量的参数 ，可以传递多个用逗号隔开的参数
+ * 需要把vararg修饰的入参写在最前面
+ */
+fun testVararg(vararg inPut:String,isTrue:Boolean) {
+
+}
+
+/**
+ * 中缀函数 infix 定义在成员函数和扩展函数前面，可以省略点和括号
+ * 1.add(2),代替为 1 add 2
+ */
+infix fun Int.add(int: Int){
+    println(this+int)
+}
