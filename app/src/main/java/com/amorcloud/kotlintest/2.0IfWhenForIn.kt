@@ -1,5 +1,9 @@
 package com.amorcloud.kotlintest
 
+/**
+ * 逻辑运算
+ * 主要：if内的最后一行即为if的返回值
+ */
 fun main() {
     testIf(44)
     testWhen1("Tom")
@@ -19,6 +23,16 @@ fun main() {
  */
 fun testIf(age: Int) = if (age > 30) println("old") else println("young")
 
+/**
+ * if返回值
+ */
+fun testIf2(age:Int) :Int{
+    return if (age > 30) {
+        age
+    } else {
+        30
+    }
+}
 /**
  * when
  */

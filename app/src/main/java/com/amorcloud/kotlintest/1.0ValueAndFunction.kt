@@ -1,5 +1,9 @@
 package com.amorcloud.kotlintest
 
+/**
+ * 变量的声明具有类型推导机制
+ * 函数的声明更加简化
+ */
 var age = 0
 private val name = "测试"
 //只读变量

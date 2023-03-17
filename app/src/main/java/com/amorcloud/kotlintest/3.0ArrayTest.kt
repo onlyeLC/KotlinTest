@@ -2,6 +2,9 @@ package com.amorcloud.kotlintest
 
 import java.io.File
 
+/**
+ * 数组的使用
+ */
 class ArrayTest {
 
 }
@@ -31,6 +34,7 @@ fun arrayTest1() {
  */
 fun arrayTest2() {
     val array = IntArray(2){5}
+
     array.forEach {
         println("array:$it")
     }

@@ -1,7 +1,7 @@
 package com.amorcloud.kotlintest
 
 fun main() {
-    println(testCompanion.print())
+    println(TestCompanion.print())
 }
 
 /**
@@ -9,7 +9,7 @@ fun main() {
  * 类似于java中static的作用，
  *
  */
-class testCompanion {
+class TestCompanion {
     companion object {
         const val name:String = "伴生对象"
         fun print() {

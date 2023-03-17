@@ -76,5 +76,5 @@ fun tes4() {
  */
 fun test5() {
     val func = {a:Int,b:Int ->"a:$a,b:$b"}
-    println( func(1,2))
+    println(func(1,2))
 }
